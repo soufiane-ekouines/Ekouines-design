@@ -23,7 +23,22 @@
                 <li> <a href="#articles"> Articles </a> </li>
                 <li> <a href="#gallery"> Gallery </a> </li>
                 <li> <a href="#features"> Features </a> </li>
-                <li> <a href="#"> Other Links </a> </li>
+                <li>
+
+                    <a href="#"> Other Links </a>
+                    <div class="mega-menu">
+                        <div class="image">
+                            <img src="{{asset('image/megamenu.png')}}" alt="">
+                        </div>
+                        <ul class="link">
+                            <li><a href="#">TEST</a></li>
+                            <li><a href="#">TEST</a></li>
+                            <li><a href="#">TEST</a></li>
+                            <li><a href="#">TEST</a></li>
+                            <li><a href="#">TEST</a></li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
         </div>
         <!-- End container  -->

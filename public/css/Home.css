@@ -68,6 +68,17 @@ a{
     background-color: white;
     box-shadow: 0 0 10px #ddd;
 }
+.header .mega-menu
+{
+    width: 50%;
+    position: absolute;
+    left: 0;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 3px solid var(--main-color);
+    z-index: 100;
+    display: flex;
+}
 .header .container{
     display: flex;
     justify-content: space-between;
@@ -82,7 +93,7 @@ a{
     margin: 0;
     padding: 0;
 }
-.Links li a{
+.Links >li> a{
     display: flex;
     justify-content: center;
     align-items: center;
