@@ -25,17 +25,22 @@
                 <li> <a href="#features"> Features </a> </li>
                 <li>
 
-                    <a href="#"> Other Links </a>
+                    <a class="O-links" href="#"> more skills </a>
                     <div class="mega-menu">
                         <div class="image">
                             <img src="{{asset('image/megamenu.png')}}" alt="">
                         </div>
                         <ul class="link">
-                            <li><a href="#">TEST</a></li>
-                            <li><a href="#">TEST</a></li>
-                            <li><a href="#">TEST</a></li>
-                            <li><a href="#">TEST</a></li>
-                            <li><a href="#">TEST</a></li>
+                            <li><a href="#">PHP</a></li>
+                            <li><a href="#">C#</a></li>
+                            <li><a href="#">CSS</a></li>
+                            <li><a href="#">UML</a></li>
+                        </ul>
+                        <ul class="link">
+                            <li><a href="#">LARAVEL</a></li>
+                            <li><a href="#">ADO.net</a></li>
+                            <li><a href="#">bootstrap</a></li>
+                            <li><a href="#">Merise</a></li>
                         </ul>
                     </div>
                 </li>

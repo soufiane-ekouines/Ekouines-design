@@ -68,17 +68,83 @@ a{
     background-color: white;
     box-shadow: 0 0 10px #ddd;
 }
+/* start mega-menu  */
 .header .mega-menu
 {
     width: 50%;
     position: absolute;
-    left: 0;
+    left: 44%;
     padding: 20px;
     background-color: white;
     border-bottom: 3px solid var(--main-color);
-    z-index: 100;
+    z-index: -1;
     display: flex;
+    gap: 40px;
+    top: calc(100% + 50px);
+    opacity: 0;
+    transition: top 0.3S ,opacity 0.3s;
 }
+
+@media (max-width:767px) {
+.header .mega-menu
+{
+    flex-direction: column;
+    gap: 0;
+    padding: 0px;
+}
+
+}
+.header .mega-menu .image img
+{
+    max-width: 100%;
+}
+@media (max-width:990px) {
+.header .mega-menu .image img
+{
+    display: none;
+}
+
+}
+.header .mega-menu .link
+{
+    padding: 18px;
+    display: block;
+    flex: 1;
+}
+.header .mega-menu .link li:not(:last-child)
+{
+    border-bottom: 1px solid #e9e6e6;
+}
+
+@media (max-width:767px) {
+.header .mega-menu .link:first-of-type li:last-child
+    {
+        border-bottom: 1px solid #e9e6e6;
+
+    }
+
+}
+.header .mega-menu .link li a
+{
+    padding: 8px;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--main-color);
+    transition: 0.3S;
+}
+.header .mega-menu .link li a:hover {
+    background-color: #fafafa;
+}
+
+.header .Links > li:hover .mega-menu
+{
+    top: 100%;
+    opacity: 1;
+    z-index: 100;
+}
+
+/* End mega menu  */
 .header .container{
     display: flex;
     justify-content: space-between;
@@ -124,7 +190,7 @@ height: 18px;
 
 
 /* start making hover  */
-.Links li a::before{
+.Links > li > a::before{
     content: "";
     position: absolute;
     width: 100%;
@@ -134,11 +200,11 @@ height: 18px;
     left: -100%;
     transition:0.3s;
 }
-.Links li a:hover{
+.Links >li >a:hover{
     color: var(--main-color);
     background-color: #fafafa;
 }
-.Links li a:hover::before{
+.Links >li >a:hover::before{
     left: 0;
 }
 
