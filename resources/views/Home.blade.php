@@ -67,5 +67,101 @@
         <!-- <a href="#articles" class="go-down"></a> -->
     </div>
     <!-- end landing  -->
+
+    <!-- start article  -->
+<div class="article" id="article">
+    <h2 class="main-title">Articles</h2>
+    <div class="container">
+        <!-- <div class="box">
+            <img src="" alt="">
+            <div class="content">
+                <h3 class="title">Test title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur</p>
+            </div>
+            <div class="info">
+                <a href="#">Read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="content">
+                <h3 class="title">Test title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur</p>
+            </div>
+            <div class="info">
+                <a href="#">Read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="content">
+                <h3 class="title">Test title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur</p>
+            </div>
+            <div class="info">
+                <a href="#">Read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="content">
+                <h3 class="title">Test title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur</p>
+            </div>
+            <div class="info">
+                <a href="#">Read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="content">
+                <h3 class="title">Test title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur</p>
+            </div>
+            <div class="info">
+                <a href="#">Read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="content">
+                <h3 class="title">Test title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur</p>
+            </div>
+            <div class="info">
+                <a href="#">Read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="content">
+                <h3 class="title">Test title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur</p>
+            </div>
+            <div class="info">
+                <a href="#">Read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="content">
+                <h3 class="title">Test title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur</p>
+            </div>
+            <div class="info">
+                <a href="#">Read more</a>
+            </div>
+        </div>
+    </div> -->
+</div>
+
+    <!-- End article  -->
 </body>
 </html>

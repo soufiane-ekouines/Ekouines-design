@@ -309,3 +309,95 @@ height: 18px;
 }
 
 /* End animation */
+
+/* start articles  */
+
+.main-title {
+    text-transform: uppercase;
+    font-size: 30px;
+    border: 2px solid black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 80px;
+    position: relative;
+    width: fit-content;
+}
+
+.main-title::before
+{
+    content: "";
+    height: 12px;
+    width: 12px;
+    background-color: var(--main-color);
+    position: absolute;
+    left: -30px;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.main-title::after
+{
+    content: "";
+    height: 12px;
+    width: 12px;
+    background-color: var(--main-color);
+    position: absolute;
+    right: -30px;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.main-title:hover::before {
+    animation: left-move 0.5s linear forwards;
+  }
+  .main-title:hover::after {
+    animation: right-move 0.5s linear forwards;
+  }
+
+  /* start animation  */
+@keyframes left-move {
+    0%,50%{
+        left: 0;
+    }
+    50%{
+        left: 0;
+        border-radius: 0%;
+        height: 100%;
+        width: 53%;
+    }
+    100%{
+        left: 0;
+        border-radius: 0%;
+        height: 100%;
+        width: 53%;
+        color: white;
+    }
+}
+
+@keyframes right-move {
+    0%,50%{
+        right: 0;
+    }
+    50%{
+        right: 0;
+        border-radius: 0%;
+        height: 100%;
+        width: 50%;
+    }
+    100%{
+        right: 0;
+        border-radius: 0%;
+        height: 100%;
+        width: 50%;
+        color: white;
+    }
+}
+  /* End animation  */
+  .main-title:hover {
+    color: white;
+    border: 2px solid white;
+    transition-delay: 0.3s;
+  }
+/* End articles  */
