@@ -532,3 +532,11 @@ height: 18px;
 }
 
 /* End gallery  */
+
+/* start features */
+.features{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+/* End features */

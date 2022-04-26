@@ -210,9 +210,40 @@
 
     <!-- start features -->
 <div class="features" id="features">
-    <h2 class="main-title">Gallery</h2>
+    <h2 class="main-title">FEATURES</h2>
     <div class="container">
+        <div class="box">
+            <div class="image">
+                <img src="{{asset('image/features-01.jpg')}}" alt="">
+            </div>
+            <div class="content">
+                <h1>Quality</h1>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente provident</P>
+                <a href="#">More</a>
+            </div>
+        </div>
 
+        <div class="box">
+            <div class="image">
+                <img src="{{asset('image/features-02.jpg')}}" alt="">
+            </div>
+            <div class="content">
+                <h1>Quality</h1>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente provident</P>
+                <a href="#">More</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="{{asset('image/features-03.jpg')}}" alt="">
+            </div>
+            <div class="content">
+                <h1>Quality</h1>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente provident</P>
+                <a href="#">More</a>
+            </div>
+        </div>
     </div>
 </div>
 
