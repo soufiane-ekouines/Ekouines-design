@@ -323,6 +323,7 @@ height: 18px;
     margin: 0 auto 80px;
     position: relative;
     width: fit-content;
+    z-index: 1;
 }
 
 .main-title::before
@@ -400,4 +401,134 @@ height: 18px;
     border: 2px solid white;
     transition-delay: 0.3s;
   }
+
+.article{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.article .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px ,1fr));
+    gap: 40px;
+}
+
+
+
+.article .box{
+    box-shadow: 0 2px 15px rgb(0,0,0,10%);
+    background-color: white;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform 0.3s,box-shadow 0.3s;
+}
+.article .box:hover
+{
+    transform: translateY(-10px);
+    box-shadow: 0 2px 15px rgb(0,0,0,20%);
+
+}
+.article .box img{
+    max-width: 100%;
+    width: 100%;
+
+}
+
+.article .box .content{
+    padding-left: 20px;
+    margin: 10px 0 0;
+    line-height: 1.5;
+    color :#777;
+}
+
+.article .box:hover .info{
+    animation: link-left 0.6s linear infinite;
+}
+
+@keyframes link-left {
+    100%{
+       transform: translateX(10px);
+    }
+}
+
+.article .box .content .title{
+    margin: 0;
+    color: black;
+}
+.article .box .info{
+    padding: 20px;
+    border-top: 1px solid #E6E6E7;
+    font-weight: bold;
+}
+.article .box .info>a{
+    color: var(--main-color);
+
+}
 /* End articles  */
+
+/* start gallery  */
+.gallery{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    background-color: #ececec;
+}
+
+.gallery .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 40px ;
+}
+
+.gallery .container .box{
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0px 12px 20px 0px rgb(0, 0, 0 / 13%) , 0px 2px 4px 0px rgb(0, 0, 0 / 12%);
+}
+
+.gallery .container .box .image{
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery .container .box .image::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255 255 255 / 20%);
+    transition: 0.3s;
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+    z-index: 2;
+}
+
+.gallery .container .box .image:hover::before{
+    animation: gallery-hover 0.7s ;
+}
+
+/* animation */
+@keyframes gallery-hover {
+    0%,40%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        width: 200%;
+        height: 200%;
+    }
+}
+.gallery .container .box .image img{
+    max-width: 100%;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.gallery .container .box .image:hover img{
+    transform: rotate(5deg) scale(1.1);
+}
+
+/* End gallery  */

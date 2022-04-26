@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/Home.css') }}">
     <link rel="stylesheet" href="{{ asset('css/normalize.css') }}">
-    <title>Ekouines</title>
+    <title>Ekomsite</title>
 </head>
 <body>
     <!-- start header  -->
@@ -17,10 +17,10 @@
         <!-- start container  -->
         <div class="container">
                 <a href="#" class="logo">
-                    Ekouines
+                    Ekomsite
                 </a>
             <ul class="Links">
-                <li> <a href="#articles"> Articles </a> </li>
+                <li> <a href="#article"> Articles </a> </li>
                 <li> <a href="#gallery"> Gallery </a> </li>
                 <li> <a href="#features"> Features </a> </li>
                 <li>
@@ -55,7 +55,7 @@
     <div class="landing">
         <div class="container">
             <div class="text">
-                <h1>Welcome, To Ekouines World</h1>
+                <h1>Welcome, To Ekomsite World</h1>
                 <p>
                     Here Iam gonna share everything about my life. Books Iam reading, Games Iam Playing, Stories and Events
                 </p>
@@ -72,8 +72,8 @@
 <div class="article" id="article">
     <h2 class="main-title">Articles</h2>
     <div class="container">
-        <!-- <div class="box">
-            <img src="" alt="">
+        <div class="box">
+            <img src="{{asset('image/cat-01.jpg')}}" alt="">
             <div class="content">
                 <h3 class="title">Test title</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur</p>
@@ -84,7 +84,7 @@
         </div>
 
         <div class="box">
-            <img src="" alt="">
+            <img src="{{asset('image/cat-01.jpg')}}" alt="">
             <div class="content">
                 <h3 class="title">Test title</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur</p>
@@ -95,7 +95,7 @@
         </div>
 
         <div class="box">
-            <img src="" alt="">
+            <img src="{{asset('image/cat-01.jpg')}}" alt="">
             <div class="content">
                 <h3 class="title">Test title</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur</p>
@@ -106,7 +106,7 @@
         </div>
 
         <div class="box">
-            <img src="" alt="">
+            <img src="{{asset('image/cat-01.jpg')}}" alt="">
             <div class="content">
                 <h3 class="title">Test title</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur</p>
@@ -117,7 +117,7 @@
         </div>
 
         <div class="box">
-            <img src="" alt="">
+            <img src="{{asset('image/cat-01.jpg')}}" alt="">
             <div class="content">
                 <h3 class="title">Test title</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur</p>
@@ -128,7 +128,7 @@
         </div>
 
         <div class="box">
-            <img src="" alt="">
+            <img src="{{asset('image/cat-01.jpg')}}" alt="">
             <div class="content">
                 <h3 class="title">Test title</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur</p>
@@ -139,7 +139,7 @@
         </div>
 
         <div class="box">
-            <img src="" alt="">
+            <img src="{{asset('image/cat-01.jpg')}}" alt="">
             <div class="content">
                 <h3 class="title">Test title</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur</p>
@@ -150,7 +150,7 @@
         </div>
 
         <div class="box">
-            <img src="" alt="">
+            <img src="{{asset('image/cat-01.jpg')}}" alt="">
             <div class="content">
                 <h3 class="title">Test title</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur</p>
@@ -159,9 +159,63 @@
                 <a href="#">Read more</a>
             </div>
         </div>
-    </div> -->
+    </div>
 </div>
 
     <!-- End article  -->
+
+    <!-- start gallery  -->
+    <div class="gallery" id="gallery">
+        <h2 class="main-title">Gallery</h2>
+        <div class="container">
+            <div class="box">
+                <div class="image">
+                    <img src="{{asset('image/gallery-01.png')}}" alt="">
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="{{asset('image/gallery-01.png')}}" alt="">
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="{{asset('image/gallery-01.png')}}" alt="">
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="{{asset('image/gallery-01.png')}}" alt="">
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="{{asset('image/gallery-01.png')}}" alt="">
+                </div>
+            </div>
+
+                       <div class="box">
+                <div class="image">
+                    <img src="{{asset('image/gallery-01.png')}}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End gallery  -->
+
+    <!-- start features -->
+<div class="features" id="features">
+    <h2 class="main-title">Gallery</h2>
+    <div class="container">
+
+    </div>
+</div>
+
+    <!-- End features  -->
 </body>
 </html>
