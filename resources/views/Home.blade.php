@@ -252,9 +252,10 @@
 
 <div class="Testimonials" id="Testimonials">
     <h2 class="main-title">TESTIMONIALS</h2>
-
     <div class="container">
-
+        <div class="box">
+            <img src="{{asset('image/avatar-01.png')}}" alt="">
+        </div>
     </div>
 </div>
     {{-- End TESTIMONIALS --}}
