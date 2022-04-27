@@ -212,7 +212,7 @@
 <div class="features" id="features">
     <h2 class="main-title">FEATURES</h2>
     <div class="container">
-        <div class="box">
+        <div class="box quality">
             <div class="image">
                 <img src="{{asset('image/features-01.jpg')}}" alt="">
             </div>
@@ -223,23 +223,23 @@
             </div>
         </div>
 
-        <div class="box">
+        <div class="box time">
             <div class="image">
                 <img src="{{asset('image/features-02.jpg')}}" alt="">
             </div>
             <div class="content">
-                <h1>Quality</h1>
+                <h1>Time</h1>
                 <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente provident</P>
                 <a href="#">More</a>
             </div>
         </div>
 
-        <div class="box">
+        <div class="box passion">
             <div class="image">
                 <img src="{{asset('image/features-03.jpg')}}" alt="">
             </div>
             <div class="content">
-                <h1>Quality</h1>
+                <h1>Passion</h1>
                 <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente provident</P>
                 <a href="#">More</a>
             </div>
@@ -248,5 +248,15 @@
 </div>
 
     <!-- End features  -->
+    {{-- start TESTIMONIALS --}}
+
+<div class="Testimonials" id="Testimonials">
+    <h2 class="main-title">TESTIMONIALS</h2>
+
+    <div class="container">
+
+    </div>
+</div>
+    {{-- End TESTIMONIALS --}}
 </body>
 </html>
