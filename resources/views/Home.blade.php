@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/Home.css') }}">
     <link rel="stylesheet" href="{{ asset('css/normalize.css') }}">
     <title>Ekomsite</title>
@@ -255,6 +256,98 @@
     <div class="container">
         <div class="box">
             <img src="{{asset('image/avatar-01.png')}}" alt="">
+            <h3>Soufiane ekouines</h3>
+            <span class="title">Full stack devloper</span>
+            <div class="rate">
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus quaerat ducimus
+            </p>
+        </div>
+
+        <div class="box">
+            <img src="{{asset('image/avatar-01.png')}}" alt="">
+            <h3>Soufiane ekouines</h3>
+            <span class="title">Full stack devloper</span>
+            <div class="rate">
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus quaerat ducimus
+            </p>
+        </div>
+
+        <div class="box">
+            <img src="{{asset('image/avatar-01.png')}}" alt="">
+            <h3>Soufiane ekouines</h3>
+            <span class="title">Full stack devloper</span>
+            <div class="rate">
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus quaerat ducimus
+            </p>
+        </div>
+
+        <div class="box">
+            <img src="{{asset('image/avatar-01.png')}}" alt="">
+            <h3>Soufiane ekouines</h3>
+            <span class="title">Full stack devloper</span>
+            <div class="rate">
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus quaerat ducimus
+            </p>
+        </div>
+
+        <div class="box">
+            <img src="{{asset('image/avatar-01.png')}}" alt="">
+            <h3>Soufiane ekouines</h3>
+            <span class="title">Full stack devloper</span>
+            <div class="rate">
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus quaerat ducimus
+            </p>
+        </div>
+
+        <div class="box">
+            <img src="{{asset('image/avatar-01.png')}}" alt="">
+            <h3>Soufiane ekouines</h3>
+            <span class="title">Full stack devloper</span>
+            <div class="rate">
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="filled fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus quaerat ducimus
+            </p>
         </div>
     </div>
 </div>
