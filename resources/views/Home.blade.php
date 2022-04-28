@@ -358,13 +358,146 @@
     <h2 class="main-title">TESTIMONIALS</h2>
         <div class="container">
             <div class="box">
-                <img src="" alt="">
                 <div class="content">
+                    <img src="{{asset('image/team-01.jpg')}}" alt="">
+
+                     <div class="social">
+                        <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                        <a href="#"> <i class="fab fa-twitter"></i> </a>
+                        <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                        <a href="#"> <i class="fab fa-youtube"></i> </a>
+                    </div>
+                  </div>
+                <div class="info">
                     <h3>Name</h3>
                     <p>Simple Short Description</p>
                 </div>
-                <div class="contact">
-                    
+
+            </div>
+
+            <div class="box">
+                <div class="content">
+                <img src="{{asset('image/team-01.jpg')}}" alt="">
+
+                     <div class="social">
+                        <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                        <a href="#"> <i class="fab fa-twitter"></i> </a>
+                        <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                        <a href="#"> <i class="fab fa-youtube"></i> </a>
+                    </div>
+                  </div>
+                <div class="info">
+                    <h3>Name</h3>
+                    <p>Simple Short Description</p>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="content">
+                    <img src="{{asset('image/team-01.jpg')}}" alt="">
+
+                     <div class="social">
+                        <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                        <a href="#"> <i class="fab fa-twitter"></i> </a>
+                        <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                        <a href="#"> <i class="fab fa-youtube"></i> </a>
+                    </div>
+                  </div>
+                <div class="info">
+                    <h3>Name</h3>
+                    <p>Simple Short Description</p>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="content">
+                    <img src="{{asset('image/team-01.jpg')}}" alt="">
+
+                     <div class="social">
+                        <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                        <a href="#"> <i class="fab fa-twitter"></i> </a>
+                        <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                        <a href="#"> <i class="fab fa-youtube"></i> </a>
+                    </div>
+                  </div>
+                <div class="info">
+                    <h3>Name</h3>
+                    <p>Simple Short Description</p>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="content">
+                    <img src="{{asset('image/team-01.jpg')}}" alt="">
+
+                     <div class="social">
+                        <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                        <a href="#"> <i class="fab fa-twitter"></i> </a>
+                        <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                        <a href="#"> <i class="fab fa-youtube"></i> </a>
+                    </div>
+                  </div>
+                <div class="info">
+                    <h3>Name</h3>
+                    <p>Simple Short Description</p>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="content">
+                    <img src="{{asset('image/team-01.jpg')}}" alt="">
+
+                     <div class="social">
+                        <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                        <a href="#"> <i class="fab fa-twitter"></i> </a>
+                        <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                        <a href="#"> <i class="fab fa-youtube"></i> </a>
+                    </div>
+                  </div>
+                <div class="info">
+                    <h3>Name</h3>
+                    <p>Simple Short Description</p>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="content">
+                    <img src="{{asset('image/team-01.jpg')}}" alt="">
+
+                     <div class="social">
+                        <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                        <a href="#"> <i class="fab fa-twitter"></i> </a>
+                        <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                        <a href="#"> <i class="fab fa-youtube"></i> </a>
+
+                    </div>
+
+                </div>
+                <div class="info">
+                    <h3>Name</h3>
+                    <p>Simple Short Description</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="content">
+                    <img src="{{asset('image/team-01.jpg')}}" alt="">
+
+                     <div class="social">
+                        <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                        <a href="#"> <i class="fab fa-twitter"></i> </a>
+                        <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                        <a href="#"> <i class="fab fa-youtube"></i> </a>
+                    </div>
+                   </div>
+                <div class="info">
+                    <h3>Name</h3>
+                    <p>Simple Short Description</p>
                 </div>
             </div>
         </div>
