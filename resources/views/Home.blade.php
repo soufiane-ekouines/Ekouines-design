@@ -352,5 +352,23 @@
     </div>
 </div>
     {{-- End TESTIMONIALS --}}
+
+    {{-- start TEAM MEMBERS --}}
+    <div class="teams">
+    <h2 class="main-title">TESTIMONIALS</h2>
+        <div class="container">
+            <div class="box">
+                <img src="" alt="">
+                <div class="content">
+                    <h3>Name</h3>
+                    <p>Simple Short Description</p>
+                </div>
+                <div class="contact">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    {{-- End TEAM MEMBERS --}}
 </body>
 </html>
