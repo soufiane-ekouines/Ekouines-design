@@ -914,3 +914,11 @@ height: 18px;
     transform: skewX(-30deg);
 }
 /* End services */
+/* start how it word */
+.work{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+}
+
+/* End how it work  */

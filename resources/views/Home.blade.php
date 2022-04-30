@@ -554,5 +554,40 @@
       </div>
 
     {{-- End servises --}}
+
+    {{-- start  HOW IT WORKS ? --}}
+      <div class="work" id="work">
+    <h2 class="main-title">TESTIMONIALS</h2>
+          <div class="container">
+                  <img src="{{ asset('image/work-steps.png') }}" alt="" class="image">
+              <div class="info">
+                  <div class="box">
+                      <i class="far fa-tools"></i>
+                      <div class="text">
+                          <h3>Business Analysis</h3>
+                          <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nesciunt obcaecati quisquam quis laborum
+                            recusandae debitis vel</p>
+                      </div>
+                  </div>
+                  <div class="box">
+                      <i class="fab fa-palette"></i>
+                      <div class="text">
+                          <h3>Architecture</h3>
+                          <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nesciunt obcaecati quisquam quis laborum
+                            recusandae debitis vel</p>
+                      </div>                    
+                  </div>
+                  <div class="box">
+                      <i class="far fa-laptop-code"></i>
+                      <div class="text">
+                          <h3>Developement</h3>
+                          <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nesciunt obcaecati quisquam quis laborum
+                            recusandae debitis vel</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    {{-- end HOW IT WORKS ? --}}
 </body>
 </html>
