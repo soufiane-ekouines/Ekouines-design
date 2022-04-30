@@ -562,7 +562,7 @@
                   <img src="{{ asset('image/work-steps.png') }}" alt="" class="image">
               <div class="info">
                   <div class="box">
-                      <i class="far fa-tools"></i>
+                    <i class="fa-solid fa-chart-pie"></i>
                       <div class="text">
                           <h3>Business Analysis</h3>
                           <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nesciunt obcaecati quisquam quis laborum
@@ -570,15 +570,15 @@
                       </div>
                   </div>
                   <div class="box">
-                      <i class="fab fa-palette"></i>
+                    <i class="fa-solid fa-sitemap"></i>
                       <div class="text">
                           <h3>Architecture</h3>
                           <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nesciunt obcaecati quisquam quis laborum
                             recusandae debitis vel</p>
-                      </div>                    
+                      </div>
                   </div>
                   <div class="box">
-                      <i class="far fa-laptop-code"></i>
+                    <i class="fa-solid fa-file-code"></i>
                       <div class="text">
                           <h3>Developement</h3>
                           <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nesciunt obcaecati quisquam quis laborum
