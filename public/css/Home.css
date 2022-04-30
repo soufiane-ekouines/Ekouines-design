@@ -1042,6 +1042,10 @@ height: 18px;
     width: 75px;
     transition: 0.3s;
 }
+.container .info .time .unit:hover,
+.container .info .time .unit:hover span:last-child{
+    border-color: var(--main-color);
+}
 .container .info .time .unit span{
     display: block;
     transition: 0.3s;
@@ -1057,14 +1061,73 @@ height: 18px;
     font-size: 13px;
     border-top: 1px solid #d4d4d4;
 }
-.container .info .time .title{
-
+.container .info .title{
+    text-align: center;
+    margin: 40px 0 0;
+    font-size: 30px;
 }
-.container .info .time .description{
-
+.container .info .description{
+    margin: 17px;
+    text-align: center;
+    line-height: 1.7;
+    color: #777;
+    font-size: 19px;
 }
 .container .subscribe{
     width: 100%;
     margin-top: 50px;
+}
+.container .subscribe form{
+    width: 600px;
+    margin: 20px auto;
+    padding: 30px 40px;
+    background-color: #f6f5f5;
+    border-radius: 50px;
+    display: flex;
+    gap: 20px;
+}
+@media (max-width:767px) {
+    .container .subscribe form{
+        max-width: 100%;
+        padding: 20px;
+        flex-direction: column;
+        border-radius: 0;
+    }
+    .container .subscribe form input[type="email"]{
+        border-radius: 0;
+    }
+    .container .subscribe form input[type="submit"]{
+        border-radius: 0;
+    }
+}
+.container .subscribe form input[type="email"]{
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    caret-color: var(--main-color);
+    flex: 1;
+}
+.container .subscribe form input[type="email"]:focus{
+    outline: none;
+}
+
+.container .subscribe form input[type="email"]::placeholder{
+    transition: opacity 0.3s;
+}
+.container .subscribe form input[type="email"]:focus::placeholder{
+    opacity: 0;
+}
+.container .subscribe form input[type="submit"]{
+    border-radius: 50px;
+    border: none;
+    background-color: var(--main-color);
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.3ms;
+}
+.container .subscribe form input[type="submit"]:hover{
+    background-color: var(--main-color-alt);
 }
 /* End event */

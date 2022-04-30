@@ -58,7 +58,7 @@
             <div class="text">
                 <h1>Welcome, To Ekomsite World</h1>
                 <p>
-                    Here Iam gonna share everything about my life. Books Iam reading, Games Iam Playing, Stories and Events
+                    We deliver web and mobile app development services to global businesses , with 100% project delivery success.
                 </p>
             </div>
             <div class="image">
@@ -509,43 +509,43 @@
         <h2 class="main-title">Services</h2>
         <div class="container">
           <div class="box">
-            <i class="fas fa-user-shield fa-4x"></i>
-            <h3>Security</h3>
-            <div class="info">
-              <a href="#">Details</a>
-            </div>
-          </div>
-          <div class="box">
-            <i class="fas fa-tools fa-4x"></i>
-            <h3>Fixing Issues</h3>
-            <div class="info">
-              <a href="#">Details</a>
-            </div>
-          </div>
-          <div class="box">
-            <i class="fas fa-map-marked-alt fa-4x"></i>
-            <h3>Location</h3>
-            <div class="info">
-              <a href="#">Details</a>
-            </div>
-          </div>
-          <div class="box">
             <i class="fas fa-laptop-code fa-4x"></i>
-            <h3>Coding</h3>
+            <h3>Web Development</h3>
             <div class="info">
               <a href="#">Details</a>
             </div>
           </div>
           <div class="box">
             <i class="fas fa-palette fa-4x"></i>
-            <h3>Security</h3>
+            <h3>UI/UX Design</h3>
+            <div class="info">
+              <a href="#">Details</a>
+            </div>
+          </div>
+          <div class="box">
+            <i class="fas fa-map-marked-alt fa-4x"></i>
+            <h3>AI / ML</h3>
+            <div class="info">
+              <a href="#">Details</a>
+            </div>
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-mobile-screen-button fa-4x"></i>
+            <h3>Mobile Apps</h3>
+            <div class="info">
+              <a href="#">Details</a>
+            </div>
+          </div>
+          <div class="box">
+            <i class="fas fa-bullhorn fa-4x"></i>
+            <h3>Online Courses</h3>
             <div class="info">
               <a href="#">Design</a>
             </div>
           </div>
           <div class="box">
-            <i class="fas fa-bullhorn fa-4x"></i>
-            <h3>Marketing</h3>
+            <i class="fa-solid fa-chess-board fa-4x"></i>
+            <h3>Gaming</h3>
             <div class="info">
               <a href="#">Details</a>
             </div>
@@ -564,25 +564,22 @@
                   <div class="box">
                     <i class="fa-solid fa-chart-pie"></i>
                       <div class="text">
-                          <h3>Business Analysis</h3>
-                          <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nesciunt obcaecati quisquam quis laborum
-                            recusandae debitis vel</p>
+                          <h3>Discover</h3>
+                          <p> We shape brands through exploration, applying in-depth research to challenge assumptions at every turn.</p>
                       </div>
                   </div>
                   <div class="box">
                     <i class="fa-solid fa-sitemap"></i>
                       <div class="text">
-                          <h3>Architecture</h3>
-                          <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nesciunt obcaecati quisquam quis laborum
-                            recusandae debitis vel</p>
+                          <h3>Design</h3>
+                          <p> Our design approach is to simplify. We embrace the joy in creating something unique that is easy for end users.</p>
                       </div>
                   </div>
                   <div class="box">
                     <i class="fa-solid fa-file-code"></i>
                       <div class="text">
-                          <h3>Developement</h3>
-                          <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nesciunt obcaecati quisquam quis laborum
-                            recusandae debitis vel</p>
+                          <h3>Build</h3>
+                          <p> Using modern technologies, we build with efficiency and skill, creating flexible and scalable business-driven solutions.</p>
                       </div>
                   </div>
               </div>
