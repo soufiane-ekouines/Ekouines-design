@@ -1006,15 +1006,65 @@ height: 18px;
 /* End how it work  */
 
 /* start event */
-.event{
+.events{
     padding-top: 100px;
     padding-bottom: 100px;
+    position: relative;
 }
 .container{
-
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .container img{
+    max-width:400px;
+}
+@media (max-width:991px) {
+.container img{
+    display: none;
+}
+}
+.container .info{
+    flex: 1;
+}
+.container .info .time{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    margin: 20px auto;
+    gap: 10px;
+    justify-content: center;
+}
+.container .info .time .unit{
+    border: 1px solid #d4d4d4;
+    border-radius: 6px;
+    text-align: center;
+    width: 75px;
+    transition: 0.3s;
+}
+.container .info .time .unit span{
+    display: block;
+    transition: 0.3s;
+}
+.container .info .time .unit span:first-child{
+    font-size: 35px;
+    padding: 15px;
+    color: var(--main-color);
+    font-weight: bold;
+}
+.container .info .time .unit span:last-child{
+    padding: 8px 10px;
+    font-size: 13px;
+    border-top: 1px solid #d4d4d4;
+}
+.container .info .time .title{
 
 }
+.container .info .time .description{
 
+}
+.container .subscribe{
+    width: 100%;
+    margin-top: 50px;
+}
 /* End event */

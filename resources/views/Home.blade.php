@@ -597,7 +597,7 @@
     <div class="dots dots-down"></div>
     <h2 class="main-title">Latest Events</h2>
     <div class="container">
-      <img src="imgs/events.png" alt="" />
+      <img src="image/events.png" alt="" />
       <div class="info">
         <div class="time">
           <div class="unit">
