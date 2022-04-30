@@ -705,6 +705,7 @@ height: 18px;
     box-shadow: 0px 2px 4px rgb(0, 0, 0 / 7%);
     border-radius: 6px;
     position: relative;
+    height: 144px;
 }
 .Testimonials .container .box img{
     position: absolute;

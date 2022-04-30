@@ -22,7 +22,7 @@
                 </a>
             <ul class="Links">
                 <li> <a href="#article"> Articles </a> </li>
-                <li> <a href="#gallery"> Gallery </a> </li>
+                <li> <a href="#gallery"> Project </a> </li>
                 <li> <a href="#features"> Features </a> </li>
                 <li>
 
@@ -71,12 +71,12 @@
 
     <!-- start article  -->
 <div class="article" id="article">
-    <h2 class="main-title">Articles</h2>
+    <h2 class="main-title">Article</h2>
     <div class="container">
         <div class="box">
             <img src="{{asset('image/cat-01.jpg')}}" alt="">
             <div class="content">
-                <h3 class="title">Test title</h3>
+                <h3 class="title">soon article</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur</p>
             </div>
             <div class="info">
@@ -87,7 +87,7 @@
         <div class="box">
             <img src="{{asset('image/cat-01.jpg')}}" alt="">
             <div class="content">
-                <h3 class="title">Test title</h3>
+                <h3 class="title">soon article</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur</p>
             </div>
             <div class="info">
@@ -98,7 +98,7 @@
         <div class="box">
             <img src="{{asset('image/cat-01.jpg')}}" alt="">
             <div class="content">
-                <h3 class="title">Test title</h3>
+                <h3 class="title">soon article</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur</p>
             </div>
             <div class="info">
@@ -109,7 +109,7 @@
         <div class="box">
             <img src="{{asset('image/cat-01.jpg')}}" alt="">
             <div class="content">
-                <h3 class="title">Test title</h3>
+                <h3 class="title">soon article</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur</p>
             </div>
             <div class="info">
@@ -120,7 +120,7 @@
         <div class="box">
             <img src="{{asset('image/cat-01.jpg')}}" alt="">
             <div class="content">
-                <h3 class="title">Test title</h3>
+                <h3 class="title">soon article</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur</p>
             </div>
             <div class="info">
@@ -131,7 +131,7 @@
         <div class="box">
             <img src="{{asset('image/cat-01.jpg')}}" alt="">
             <div class="content">
-                <h3 class="title">Test title</h3>
+                <h3 class="title">soon article</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur</p>
             </div>
             <div class="info">
@@ -142,7 +142,7 @@
         <div class="box">
             <img src="{{asset('image/cat-01.jpg')}}" alt="">
             <div class="content">
-                <h3 class="title">Test title</h3>
+                <h3 class="title">soon article</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur</p>
             </div>
             <div class="info">
@@ -153,7 +153,7 @@
         <div class="box">
             <img src="{{asset('image/cat-01.jpg')}}" alt="">
             <div class="content">
-                <h3 class="title">Test title</h3>
+                <h3 class="title">soon article</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur</p>
             </div>
             <div class="info">
@@ -167,41 +167,41 @@
 
     <!-- start gallery  -->
     <div class="gallery" id="gallery">
-        <h2 class="main-title">Gallery</h2>
+        <h2 class="main-title">Project</h2>
         <div class="container">
             <div class="box">
                 <div class="image">
-                    <img src="{{asset('image/gallery-01.png')}}" alt="">
+                    <img src="{{asset('image/G1.jpg')}}" alt="">
                 </div>
             </div>
 
             <div class="box">
                 <div class="image">
-                    <img src="{{asset('image/gallery-01.png')}}" alt="">
+                    <img src="{{asset('image/G2.jpg')}}" alt="">
                 </div>
             </div>
 
             <div class="box">
                 <div class="image">
-                    <img src="{{asset('image/gallery-01.png')}}" alt="">
+                    <img src="{{asset('image/G3.jpg')}}" alt="">
                 </div>
             </div>
 
             <div class="box">
                 <div class="image">
-                    <img src="{{asset('image/gallery-01.png')}}" alt="">
+                    <img src="{{asset('image/G4.jpg')}}" alt="">
                 </div>
             </div>
 
             <div class="box">
                 <div class="image">
-                    <img src="{{asset('image/gallery-01.png')}}" alt="">
+                    <img src="{{asset('image/G3.jpg')}}" alt="">
                 </div>
             </div>
 
                        <div class="box">
                 <div class="image">
-                    <img src="{{asset('image/gallery-01.png')}}" alt="">
+                    <img src="{{asset('image/G1.jpg')}}" alt="">
                 </div>
             </div>
         </div>
@@ -219,7 +219,7 @@
             </div>
             <div class="content">
                 <h1>Quality</h1>
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente provident</P>
+                <P>Hire our Quality Assurance (QA) experts who automatically test the functionality of web applications </P>
                 <a href="#">More</a>
             </div>
         </div>
@@ -230,7 +230,8 @@
             </div>
             <div class="content">
                 <h1>Time</h1>
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente provident</P>
+                <P>“Fully satisfied with the quick response time, in-house knowledge, communication.”
+                </P>
                 <a href="#">More</a>
             </div>
         </div>
@@ -241,7 +242,7 @@
             </div>
             <div class="content">
                 <h1>Passion</h1>
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente provident</P>
+                <P>We've helped businesses increase their revenue on an average by 90% in their first year with us!</P>
                 <a href="#">More</a>
             </div>
         </div>
@@ -256,8 +257,8 @@
     <div class="container">
         <div class="box">
             <img src="{{asset('image/avatar-01.png')}}" alt="">
-            <h3>Soufiane ekouines</h3>
-            <span class="title">Full stack devloper</span>
+            <h3>shared growth</h3>
+            <span class="title">Canada</span>
             <div class="rate">
                 <i class="filled fas fa-star"></i>
                 <i class="filled fas fa-star"></i>
@@ -266,14 +267,14 @@
                 <i class="far fa-star"></i>
             </div>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus quaerat ducimus
+                 if you want someone who will work with you to create your perfect masterpiece. described in 3 words. Hardworking. Talented. Patient
             </p>
         </div>
 
         <div class="box">
             <img src="{{asset('image/avatar-01.png')}}" alt="">
-            <h3>Soufiane ekouines</h3>
-            <span class="title">Full stack devloper</span>
+            <h3>omar kidir</h3>
+            <span class="title">United Kingdom</span>
             <div class="rate">
                 <i class="filled fas fa-star"></i>
                 <i class="filled fas fa-star"></i>
@@ -281,15 +282,15 @@
                 <i class="filled fas fa-star"></i>
                 <i class="far fa-star"></i>
             </div>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus quaerat ducimus
+            <p title="Very happy with this sellers work. There were some issues to solve after the order was completed and he continued working with me until everything was correct.">
+                Very happy with this sellers work. There were some issues to solve after the order was completed...
             </p>
         </div>
 
         <div class="box">
             <img src="{{asset('image/avatar-01.png')}}" alt="">
-            <h3>Soufiane ekouines</h3>
-            <span class="title">Full stack devloper</span>
+            <h3>Mouhamed kamal</h3>
+            <span class="title">Hong Kong</span>
             <div class="rate">
                 <i class="filled fas fa-star"></i>
                 <i class="filled fas fa-star"></i>
@@ -298,14 +299,14 @@
                 <i class="filled fas fa-star"></i>
             </div>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus quaerat ducimus
+                Very good, always adjusting a lot as we asked. Excellent job!
             </p>
         </div>
 
         <div class="box">
             <img src="{{asset('image/avatar-01.png')}}" alt="">
-            <h3>Soufiane ekouines</h3>
-            <span class="title">Full stack devloper</span>
+            <h3>smail kozan</h3>
+            <span class="title">Italy</span>
             <div class="rate">
                 <i class="filled fas fa-star"></i>
                 <i class="filled fas fa-star"></i>
@@ -314,14 +315,14 @@
                 <i class="far fa-star"></i>
             </div>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus quaerat ducimus
+                it's fantastic, very Easy to speak with Ekomsite. a perfect job as I requested
             </p>
         </div>
 
         <div class="box">
             <img src="{{asset('image/avatar-01.png')}}" alt="">
-            <h3>Soufiane ekouines</h3>
-            <span class="title">Full stack devloper</span>
+            <h3>amir colam</h3>
+            <span class="title">Sri Lanka</span>
             <div class="rate">
                 <i class="filled fas fa-star"></i>
                 <i class="filled fas fa-star"></i>
@@ -330,14 +331,14 @@
                 <i class="filled fas fa-star"></i>
             </div>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus quaerat ducimus
+                Great developers, excellent communication. Fast reply. I highly recommend
             </p>
         </div>
 
         <div class="box">
             <img src="{{asset('image/avatar-01.png')}}" alt="">
-            <h3>Soufiane ekouines</h3>
-            <span class="title">Full stack devloper</span>
+            <h3>Jahn willy</h3>
+            <span class="title">United States</span>
             <div class="rate">
                 <i class="filled fas fa-star"></i>
                 <i class="filled fas fa-star"></i>
@@ -345,8 +346,8 @@
                 <i class="filled fas fa-star"></i>
                 <i class="far fa-star"></i>
             </div>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus quaerat ducimus
+            <p title="  He was a pleasure to work with! We had a tight deadline and he translated our wireframes and flow into a proof of concept site which was really amazing.">
+                He was a pleasure to work with! We had a tight deadline and he translated our wireframes and...
             </p>
         </div>
     </div>
@@ -355,7 +356,7 @@
 
     {{-- start TEAM MEMBERS --}}
     <div class="teams">
-    <h2 class="main-title">TESTIMONIALS</h2>
+    <h2 class="main-title">TEAM MEMBERS</h2>
         <div class="container">
             <div class="box">
                 <div class="content">
@@ -369,8 +370,8 @@
                     </div>
                   </div>
                 <div class="info">
-                    <h3>Name</h3>
-                    <p>Simple Short Description</p>
+                    <h3>Soufiane ekouines</h3>
+                    <p>Full stack devloper</p>
                 </div>
 
             </div>
@@ -387,8 +388,8 @@
                     </div>
                   </div>
                 <div class="info">
-                    <h3>Name</h3>
-                    <p>Simple Short Description</p>
+                    <h3>omar alamrani</h3>
+                    <p>Full stack devloper</p>
                 </div>
 
             </div>
@@ -405,8 +406,8 @@
                     </div>
                   </div>
                 <div class="info">
-                    <h3>Name</h3>
-                    <p>Simple Short Description</p>
+                    <h3>Mouhamed ashor</h3>
+                    <p>Full stack devloper</p>
                 </div>
 
             </div>
@@ -423,8 +424,8 @@
                     </div>
                   </div>
                 <div class="info">
-                    <h3>Name</h3>
-                    <p>Simple Short Description</p>
+                    <h3>amin almardi</h3>
+                    <p>Full stack devloper</p>
                 </div>
 
             </div>
@@ -441,8 +442,8 @@
                     </div>
                   </div>
                 <div class="info">
-                    <h3>Name</h3>
-                    <p>Simple Short Description</p>
+                    <h3>john willy</h3>
+                    <p>Full stack devloper</p>
                 </div>
 
             </div>
@@ -459,8 +460,8 @@
                     </div>
                   </div>
                 <div class="info">
-                    <h3>Name</h3>
-                    <p>Simple Short Description</p>
+                    <h3>amina lmardia</h3>
+                    <p>Full stack devloper</p>
                 </div>
 
             </div>
@@ -479,8 +480,8 @@
 
                 </div>
                 <div class="info">
-                    <h3>Name</h3>
-                    <p>Simple Short Description</p>
+                    <h3>souhail carmi</h3>
+                    <p>Full stack devloper</p>
                 </div>
             </div>
 
@@ -496,8 +497,8 @@
                     </div>
                    </div>
                 <div class="info">
-                    <h3>Name</h3>
-                    <p>Simple Short Description</p>
+                    <h3>mourad boughida</h3>
+                    <p>Full stack devloper</p>
                 </div>
             </div>
         </div>
@@ -614,10 +615,9 @@
             <span>Seconds</span>
           </div>
         </div>
-        <h2 class="title">Tech Masters Event 2021</h2>
+        <h2 class="title">Tech Masters Event 2022</h2>
         <p class="description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et vero tenetur doloremque iusto ut adipisci quam
-          ratione aliquam excepturi nulla in harum, veritatis porro
+            To live life within boundaries, to limit your existence by fearing the unexpected, to make choices based on needs and not wants, that is humanity’s biggest failure.
         </p>
       </div>
       <div class="subscribe">
